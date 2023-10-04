@@ -1,3 +1,5 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
 * , ::after , ::before{
     margin: 0;
     padding: 0;
@@ -50,6 +52,13 @@
     width: 90px;
     height: 88px;
 }
+
+.userinput{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+   }
 .btn{
     width: 80px;
     height: 40px;
@@ -78,23 +87,6 @@
     height: 40px;
 }
 
-/* 
-*input[placeholder] {
-    color: rgb(245, 243, 243) ;
-} */
-::-webkit-input-placeholder { color: rgb(249, 248, 248); }
-
-
-    .userinput{
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        gap: 20px;
-       }
-
-
-
-
     .remember{
         display: flex;
         color: #fff;
@@ -103,6 +95,44 @@
     .forgot{
         color: #E5E5E5;
         font-size: 13px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-       
+    input:hover{
+        border-bottom: 2px solid white;
+    }
+
+    input:focus{
+        outline:none;
+        }
+
+
+
+    ::placeholder { 
+        color:    rgb(251, 251, 251);
+     }
+      
+
+
+    /* .username::-moz-placeholder  { 
+        font-family: FontAwesome;
+        font-weight: normal;
+        overflow: visible;
+        vertical-align: top;
+        display: inline-block !important;
+        padding-left: 5px;
+        padding-top: 2px;
+        color: hsl(15, 33%, 98%);
+        }
+
+
+    .password:-ms-input-placeholder  { 
+        font-family: FontAwesome;
+        font-weight: normal;
+        overflow: visible;
+        vertical-align: top;
+        display: inline-block !important;
+        padding-left: 5px;
+        padding-top: 2px;
+        color: hsl(9, 40%, 60%);
+        }     */
