@@ -9,7 +9,7 @@ function showNotification(message, position, cssClass = '') {
     }, 3000);
   }
   
-  // Example usage:
+  // Example:
   const message = 'This is a notification message.';
   const position = 'top-right';
   const cssClass = 'custom-notification';
