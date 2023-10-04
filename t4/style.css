@@ -1,0 +1,21 @@
+.notification {
+    /* Basic styling for all notifications */
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .top-right {
+    /* Styling for top-right position */
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
+  
+  /* Custom CSS class */
+  .custom-notification {
+    /* Custom styling for the notification */
+    background-color: #ffeeaa;
+    color: #333;
+    font-weight: bold;
+  }

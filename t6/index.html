@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <script src="./index.js"></script>
     <div class="container">
         <img src="./592182_823.jpg" alt="lemurs" class="bg-image" />
         <form class="loginform">
-            <img>
-            <h2>LOG IN</h2>
-            <input type="text" placeholder="username" class="username">
-            <input type="text" placeholder="password" class="password">
-            <input type="checkbox" value="Remember me">Remember me<br>
+            <img src="./Screenshot 2023-10-03 171608.png" class="logopic">
+            <h2 class="title">LOG IN</h2>
+            <div class="userinput">
+            <input type="text" placeholder="Username" class="username">
+            <input type="text" placeholder="Password"  class="password">
+            <div class="remember">
+            <input type="checkbox" value="Remember me" class="checkbox100">
+            <label>Remember me</label>
+        </div>
+         </div>
             <button type="button" class="btn">login</button>
-            <a>forgot password</a>
+           <a class="forgot">forgot password?</a>
         </form>
     </div>
 </body>
